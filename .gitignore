@@ -7,3 +7,5 @@
 *.xlsx
 
 /modifier_cards/
+
+.DS_Store
