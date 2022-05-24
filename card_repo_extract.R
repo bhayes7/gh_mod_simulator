@@ -22,6 +22,8 @@ baseCards <- data.frame(c(baseFilenames, baseModFilenames),
                         c(baseFilepaths, baseModFilepaths))
 colnames(baseCards) <- c("filename", "filepath")
 
+write.csv(baseCards, "pl_base_cards.csv")
+
 
 # MERC-SPECIFIC CARDS
 
@@ -37,8 +39,5 @@ mercCardsList <- lapply(mercDirs, function(merc){
 })
 mercCards <- do.call(rbind, mercCardsList)
 
-# all together now!
-allCards <- full_join(baseCards, mercCards)
-
 # file export
-write.csv(allCards, "pl_mod_cards.csv")
+write.csv(mercCards, "pl_merc_cards.csv")
