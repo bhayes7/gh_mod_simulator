@@ -1,4 +1,4 @@
-,filename,filepath,merc_num,merc_short,merc_long,merc_spoiler,mod,effect,rolling,back
+,filename,filepath,merc_num,merc_short,merc_long,merc_spoiler,mod,effect,rolling,disposable
 1,gh-am-be-01.png,./modifier_cards/BE/gh-am-be-01.png,12,BE,Berserker,Lightning Bolts,1,NA,FALSE,FALSE
 2,gh-am-be-02.png,./modifier_cards/BE/gh-am-be-02.png,12,BE,Berserker,Lightning Bolts,1,NA,FALSE,FALSE
 3,gh-am-be-03.png,./modifier_cards/BE/gh-am-be-03.png,12,BE,Berserker,Lightning Bolts,2,NA,TRUE,FALSE
@@ -311,7 +311,7 @@
 326,gh-am-sw-15.png,./modifier_cards/SW/gh-am-sw-15.png,3,SW,Spellweaver,Star,0,infuseearth,TRUE,FALSE
 327,gh-am-sw-16.png,./modifier_cards/SW/gh-am-sw-16.png,3,SW,Spellweaver,Star,0,infusewind,TRUE,FALSE
 328,gh-am-sw-17.png,./modifier_cards/SW/gh-am-sw-17.png,3,SW,Spellweaver,Star,0,infusesun,TRUE,FALSE
-329,gh-am-sw-18.png,./modifier_cards/SW/gh-am-sw-18.png,3,SW,Spellweaver,Star,0,infusemoon,,FALSE
+329,gh-am-sw-18.png,./modifier_cards/SW/gh-am-sw-18.png,3,SW,Spellweaver,Star,0,infusemoon,TRUE,FALSE
 331,gh-am-ti-01.png,./modifier_cards/TI/gh-am-ti-01.png,2,TI,Tinkerer,Gear,0,NA,FALSE,FALSE
 332,gh-am-ti-02.png,./modifier_cards/TI/gh-am-ti-02.png,2,TI,Tinkerer,Gear,1,NA,FALSE,FALSE
 333,gh-am-ti-03.png,./modifier_cards/TI/gh-am-ti-03.png,2,TI,Tinkerer,Gear,1,NA,FALSE,FALSE
