@@ -50,8 +50,20 @@
 #     randomly re-determine the deck's order
 
 library(R6)
+library(dplyr)
+library(tidyr)
 
-# TODO: load in card reference information
+base_cards <- read.csv("mod_data/pl_base_cards_extended.csv",
+                       row.names = 1,
+                       colClasses = c("character", "character", 
+                                      "numeric", "character", "logical", 
+                                      "logical", "numeric"))
+merc_cards <- read.csv("mod_data/pl_merc_cards_extended.csv",
+                       row.names = 1,
+                       colClasses = c("character", "character", "numeric", 
+                                      "character", "character", "character", 
+                                      "numeric", "character", "logical", 
+                                      "logical"))
 
 # the "deck" value that initializes a ModifierDeck object should
 # be a vector of filenames for the cards that are in the deck
@@ -64,6 +76,14 @@ ModifierDeck <- R6Class("ModifierDeck", list(
                                                      # while I don't check for those cards specifically, that means that decksize >= 2
     self$deck <- deck
     self$discard <- character() # discard initializes as an empty vector
+  },
+  
+  draw = function() {
+    
+  },
+  
+  shuffle = function() {
+    
   },
   
   print = function(...) {
@@ -86,3 +106,15 @@ default_deck_cards <- c("gh-am-p1-01.png", "gh-am-p1-02.png", "gh-am-p1-03.png",
                         "gh-am-p1-17.png", "gh-am-p1-18.png", "gh-am-p1-19.png", "gh-am-p1-20.png")
 
 demo_deck <- ModifierDeck$new(default_deck_cards)
+
+# this will, as expected, throw an error:
+# failure_demo_deck_1 <- ModifierDeck$new(c("gh-am-p1-01.png"))
+
+# this will also fail:
+# failure_demo_deck_2 <- ModifierDeck$new(1:20)
+
+# TODO: deck and discard are stored as vectors, but they should be lists
+# figure out how to shuffle a list and then change that
+# remember that list[[1]] <- NULL deletes a list element
+
+# deck <- deck[sample(1:length(deck))]
