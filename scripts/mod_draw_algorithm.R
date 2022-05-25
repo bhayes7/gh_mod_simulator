@@ -53,17 +53,12 @@ library(R6)
 library(dplyr)
 library(tidyr)
 
-base_cards <- read.csv("mod_data/pl_base_cards_extended.csv",
-                       row.names = 1,
-                       colClasses = c("character", "character", 
-                                      "numeric", "character", "logical", 
-                                      "logical", "numeric"))
-merc_cards <- read.csv("mod_data/pl_merc_cards_extended.csv",
-                       row.names = 1,
-                       colClasses = c("character", "character", "numeric", 
-                                      "character", "character", "character", 
-                                      "numeric", "character", "logical", 
-                                      "logical"))
+cards <- read.csv("mod_data/pl_all_mod_cards.csv",
+                  row.names = 1,
+                  colClasses = c("character", "character", "numeric",
+                                 "character", "logical", "logical",
+                                 "logical", "numeric", "character",
+                                 "character", "character"))
 
 # the "deck" value that initializes a ModifierDeck object should
 # be a vector of filenames for the cards that are in the deck
@@ -74,28 +69,44 @@ ModifierDeck <- R6Class("ModifierDeck", list(
   initialize = function(deck, discard = NULL) {
     stopifnot(is.character(deck), length(deck) >= 2) # I take it as a rule that ANY modifier deck must contain natural crit and miss
                                                      # while I don't check for those cards specifically, that means that decksize >= 2
-    self$deck <- deck
-    self$discard <- character() # discard initializes as an empty vector
+    self$deck <- as.list(deck)
+    self$discard <- list() # discard initializes as an empty list
+    
+    self$shuffle()
   },
   
+  # TODO add the entire rest of the drawcard algorithm to this shit
   draw = function() {
-    
+    drawn_card <- self$deck[[1]]
+    self$deck[[1]] <- NULL
+    self$discard <- c(self$discard, drawn_card)
+    return(drawn_card)
   },
   
   shuffle = function() {
-    
+    # if discard is empty, all cards are in deck, so we get to skip this step
+    if(length(self$discard) > 0){
+      self$deck <- c(self$deck, self$discard) # add discards back into deck
+      self$discard <- list()                  # discard made back into empty list
+    }
+    self$deck <- self$deck[sample(1:length(self$deck))] # here is the actual shuffle
+    invisible(self)
   },
   
   print = function(...) {
     cat("ModifierDeck: \n")
     if(length(self$deck) == 0){cat("  Cards in deck: deck is empty", "\n", sep = "")}
-    else{cat("  Cards in deck:", self$deck, sep = "\n    ")}
+    else{cat("  Cards in deck:", unlist(self$deck), sep = "\n    ")}
     
     if(length(self$discard) == 0){cat("  Cards in discard: discard is empty", "\n", sep = "")}
-    else{cat("  Cards in discard:", self$deck, sep = "\n    ")}
+    else{cat("  Cards in discard:", unlist(self$discard), sep = "\n    ")}
     invisible(self)
   }
 ))
+
+################
+# TESTING ZONE #
+################
 
 # filenames for all of the cards in the standard modifier deck
 # for testing purposes only
@@ -106,15 +117,14 @@ default_deck_cards <- c("gh-am-p1-01.png", "gh-am-p1-02.png", "gh-am-p1-03.png",
                         "gh-am-p1-17.png", "gh-am-p1-18.png", "gh-am-p1-19.png", "gh-am-p1-20.png")
 
 demo_deck <- ModifierDeck$new(default_deck_cards)
+print(demo_deck)
+demo_deck$draw()
+print(demo_deck)
+demo_deck$shuffle()
+print(demo_deck)
 
 # this will, as expected, throw an error:
 # failure_demo_deck_1 <- ModifierDeck$new(c("gh-am-p1-01.png"))
 
 # this will also fail:
 # failure_demo_deck_2 <- ModifierDeck$new(1:20)
-
-# TODO: deck and discard are stored as vectors, but they should be lists
-# figure out how to shuffle a list and then change that
-# remember that list[[1]] <- NULL deletes a list element
-
-# deck <- deck[sample(1:length(deck))]
