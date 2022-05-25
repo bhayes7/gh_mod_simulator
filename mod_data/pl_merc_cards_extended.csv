@@ -14,7 +14,6 @@
 13,gh-am-be-13.png,./modifier_cards/BE/gh-am-be-13.png,12,BE,Berserker,Lightning Bolts,0,heal1self,TRUE,FALSE
 14,gh-am-be-14.png,./modifier_cards/BE/gh-am-be-14.png,12,BE,Berserker,Lightning Bolts,2,infusefire,FALSE,FALSE
 15,gh-am-be-15.png,./modifier_cards/BE/gh-am-be-15.png,12,BE,Berserker,Lightning Bolts,2,infusefire,FALSE,FALSE
-16,gh-am-be-back.png,./modifier_cards/BE/gh-am-be-back.png,12,BE,Berserker,Lightning Bolts,NA,NA,NA,TRUE
 17,gh-am-br-01.png,./modifier_cards/BR/gh-am-br-01.png,1,BR,Brute,Horns,1,NA,FALSE,FALSE
 18,gh-am-br-02.png,./modifier_cards/BR/gh-am-br-02.png,1,BR,Brute,Horns,1,NA,FALSE,FALSE
 19,gh-am-br-03.png,./modifier_cards/BR/gh-am-br-03.png,1,BR,Brute,Horns,1,NA,FALSE,FALSE
@@ -37,7 +36,6 @@
 36,gh-am-br-20.png,./modifier_cards/BR/gh-am-br-20.png,1,BR,Brute,Horns,0,addtarget,TRUE,FALSE
 37,gh-am-br-21.png,./modifier_cards/BR/gh-am-br-21.png,1,BR,Brute,Horns,0,addtarget,TRUE,FALSE
 38,gh-am-br-22.png,./modifier_cards/BR/gh-am-br-22.png,1,BR,Brute,Horns,1,shield1self,FALSE,FALSE
-39,gh-am-br-back.png,./modifier_cards/BR/gh-am-br-back.png,1,BR,Brute,Horns,NA,NA,NA,TRUE
 40,gh-am-bs-01.png,./modifier_cards/BS/gh-am-bs-01.png,18,BS,Bladeswarm,REDACTED,1,infusewind,FALSE,FALSE
 41,gh-am-bs-02.png,./modifier_cards/BS/gh-am-bs-02.png,18,BS,Bladeswarm,REDACTED,1,infuseearth,FALSE,FALSE
 42,gh-am-bs-03.png,./modifier_cards/BS/gh-am-bs-03.png,18,BS,Bladeswarm,REDACTED,1,infusesun,FALSE,FALSE
@@ -55,7 +53,6 @@
 54,gh-am-bs-15.png,./modifier_cards/BS/gh-am-bs-15.png,18,BS,Bladeswarm,REDACTED,1,NA,FALSE,FALSE
 55,gh-am-bs-16.png,./modifier_cards/BS/gh-am-bs-16.png,18,BS,Bladeswarm,REDACTED,1,NA,FALSE,FALSE
 56,gh-am-bs-17.png,./modifier_cards/BS/gh-am-bs-17.png,18,BS,Bladeswarm,REDACTED,0,NA,FALSE,FALSE
-57,gh-am-bs-back.png,./modifier_cards/BS/gh-am-bs-back.png,18,BS,Bladeswarm,REDACTED,NA,NA,NA,TRUE
 58,gh-am-bt-01.png,./modifier_cards/BT/gh-am-bt-01.png,17,BT,Beast Tyrant,Animal Face,1,NA,FALSE,FALSE
 59,gh-am-bt-02.png,./modifier_cards/BT/gh-am-bt-02.png,17,BT,Beast Tyrant,Animal Face,1,NA,FALSE,FALSE
 60,gh-am-bt-03.png,./modifier_cards/BT/gh-am-bt-03.png,17,BT,Beast Tyrant,Animal Face,1,NA,FALSE,FALSE
@@ -73,7 +70,6 @@
 72,gh-am-bt-15.png,./modifier_cards/BT/gh-am-bt-15.png,17,BT,Beast Tyrant,Animal Face,0,heal1self,TRUE,FALSE
 73,gh-am-bt-16.png,./modifier_cards/BT/gh-am-bt-16.png,17,BT,Beast Tyrant,Animal Face,0,infuseearth,TRUE,FALSE
 74,gh-am-bt-17.png,./modifier_cards/BT/gh-am-bt-17.png,17,BT,Beast Tyrant,Animal Face,0,infuseearth,TRUE,FALSE
-75,gh-am-bt-back.png,./modifier_cards/BT/gh-am-bt-back.png,17,BT,Beast Tyrant,Animal Face,NA,NA,NA,TRUE
 76,gh-am-ch-01.png,./modifier_cards/CH/gh-am-ch-01.png,5,CH,Cragheart,Rocks,1,NA,FALSE,FALSE
 77,gh-am-ch-02.png,./modifier_cards/CH/gh-am-ch-02.png,5,CH,Cragheart,Rocks,1,NA,FALSE,FALSE
 78,gh-am-ch-03.png,./modifier_cards/CH/gh-am-ch-03.png,5,CH,Cragheart,Rocks,1,NA,FALSE,FALSE
@@ -92,7 +88,6 @@
 91,gh-am-ch-16.png,./modifier_cards/CH/gh-am-ch-16.png,5,CH,Cragheart,Rocks,0,infuseearth,TRUE,FALSE
 92,gh-am-ch-17.png,./modifier_cards/CH/gh-am-ch-17.png,5,CH,Cragheart,Rocks,0,infusewind,TRUE,FALSE
 93,gh-am-ch-18.png,./modifier_cards/CH/gh-am-ch-18.png,5,CH,Cragheart,Rocks,0,infusewind,TRUE,FALSE
-94,gh-am-ch-back.png,./modifier_cards/CH/gh-am-ch-back.png,5,CH,Cragheart,Rocks,NA,NA,NA,TRUE
 95,gh-am-ds-01.png,./modifier_cards/DS/gh-am-ds-01.png,14,DS,Doomstalker,Angry Face,1,NA,FALSE,FALSE
 96,gh-am-ds-02.png,./modifier_cards/DS/gh-am-ds-02.png,14,DS,Doomstalker,Angry Face,1,NA,FALSE,FALSE
 97,gh-am-ds-03.png,./modifier_cards/DS/gh-am-ds-03.png,14,DS,Doomstalker,Angry Face,1,NA,FALSE,FALSE
@@ -110,7 +105,6 @@
 109,gh-am-ds-15.png,./modifier_cards/DS/gh-am-ds-15.png,14,DS,Doomstalker,Angry Face,0,stun,FALSE,FALSE
 110,gh-am-ds-16.png,./modifier_cards/DS/gh-am-ds-16.png,14,DS,Doomstalker,Angry Face,0,addtarget,TRUE,FALSE
 111,gh-am-ds-17.png,./modifier_cards/DS/gh-am-ds-17.png,14,DS,Doomstalker,Angry Face,0,addtarget,TRUE,FALSE
-112,gh-am-ds-back.png,./modifier_cards/DS/gh-am-ds-back.png,14,DS,Doomstalker,Angry Face,NA,NA,NA,TRUE
 113,gh-am-el-01.png,./modifier_cards/EL/gh-am-el-01.png,16,EL,Elementalist,Triangles,1,NA,FALSE,FALSE
 114,gh-am-el-02.png,./modifier_cards/EL/gh-am-el-02.png,16,EL,Elementalist,Triangles,2,NA,FALSE,FALSE
 115,gh-am-el-03.png,./modifier_cards/EL/gh-am-el-03.png,16,EL,Elementalist,Triangles,2,NA,FALSE,FALSE
@@ -135,7 +129,6 @@
 134,gh-am-el-22.png,./modifier_cards/EL/gh-am-el-22.png,16,EL,Elementalist,Triangles,1,wound,FALSE,FALSE
 135,gh-am-el-23.png,./modifier_cards/EL/gh-am-el-23.png,16,EL,Elementalist,Triangles,0,stun,FALSE,FALSE
 136,gh-am-el-24.png,./modifier_cards/EL/gh-am-el-24.png,16,EL,Elementalist,Triangles,0,addtarget,FALSE,FALSE
-137,gh-am-el-back.png,./modifier_cards/EL/gh-am-el-back.png,16,EL,Elementalist,Triangles,NA,NA,NA,TRUE
 138,gh-am-mt-01.png,./modifier_cards/MT/gh-am-mt-01.png,6,MT,Mindthief,Brain,2,NA,FALSE,FALSE
 139,gh-am-mt-02.png,./modifier_cards/MT/gh-am-mt-02.png,6,MT,Mindthief,Brain,2,NA,FALSE,FALSE
 140,gh-am-mt-03.png,./modifier_cards/MT/gh-am-mt-03.png,6,MT,Mindthief,Brain,0,NA,FALSE,FALSE
@@ -156,7 +149,6 @@
 155,gh-am-mt-18.png,./modifier_cards/MT/gh-am-mt-18.png,6,MT,Mindthief,Brain,0,immobilize,TRUE,FALSE
 156,gh-am-mt-19.png,./modifier_cards/MT/gh-am-mt-19.png,6,MT,Mindthief,Brain,0,stun,TRUE,FALSE
 157,gh-am-mt-20.png,./modifier_cards/MT/gh-am-mt-20.png,6,MT,Mindthief,Brain,0,disarm,TRUE,FALSE
-158,gh-am-mt-back.png,./modifier_cards/MT/gh-am-mt-back.png,6,MT,Mindthief,Brain,NA,NA,NA,TRUE
 159,gh-am-ns-01.png,./modifier_cards/NS/gh-am-ns-01.png,10,NS,Nightshroud,Eclipse,1,infusemoon,FALSE,FALSE
 160,gh-am-ns-02.png,./modifier_cards/NS/gh-am-ns-02.png,10,NS,Nightshroud,Eclipse,1,infusemoon,FALSE,FALSE
 161,gh-am-ns-03.png,./modifier_cards/NS/gh-am-ns-03.png,10,NS,Nightshroud,Eclipse,1,invisible,FALSE,FALSE
@@ -176,7 +168,6 @@
 175,gh-am-ns-17.png,./modifier_cards/NS/gh-am-ns-17.png,10,NS,Nightshroud,Eclipse,1,NA,FALSE,FALSE
 176,gh-am-ns-18.png,./modifier_cards/NS/gh-am-ns-18.png,10,NS,Nightshroud,Eclipse,-1,infusemoon,FALSE,FALSE
 177,gh-am-ns-19.png,./modifier_cards/NS/gh-am-ns-19.png,10,NS,Nightshroud,Eclipse,-1,infusemoon,FALSE,FALSE
-178,gh-am-ns-back.png,./modifier_cards/NS/gh-am-ns-back.png,10,NS,Nightshroud,Eclipse,NA,NA,NA,TRUE
 179,gh-am-ph-01.png,./modifier_cards/PH/gh-am-ph-01.png,11,PH,Plagueherald,Cthulu Face,0,NA,FALSE,FALSE
 180,gh-am-ph-02.png,./modifier_cards/PH/gh-am-ph-02.png,11,PH,Plagueherald,Cthulu Face,1,NA,FALSE,FALSE
 181,gh-am-ph-03.png,./modifier_cards/PH/gh-am-ph-03.png,11,PH,Plagueherald,Cthulu Face,1,NA,FALSE,FALSE
@@ -197,7 +188,6 @@
 196,gh-am-ph-18.png,./modifier_cards/PH/gh-am-ph-18.png,11,PH,Plagueherald,Cthulu Face,0,immobilize,TRUE,FALSE
 197,gh-am-ph-19.png,./modifier_cards/PH/gh-am-ph-19.png,11,PH,Plagueherald,Cthulu Face,0,stun,TRUE,FALSE
 198,gh-am-ph-20.png,./modifier_cards/PH/gh-am-ph-20.png,11,PH,Plagueherald,Cthulu Face,0,stun,TRUE,FALSE
-199,gh-am-ph-back.png,./modifier_cards/PH/gh-am-ph-back.png,11,PH,Plagueherald,Cthulu Face,NA,NA,NA,TRUE
 200,gh-am-qm-01.png,./modifier_cards/QM/gh-am-qm-01.png,8,QM,Quartermaster,Three Arrows,2,NA,FALSE,FALSE
 201,gh-am-qm-02.png,./modifier_cards/QM/gh-am-qm-02.png,8,QM,Quartermaster,Three Arrows,2,NA,FALSE,FALSE
 202,gh-am-qm-03.png,./modifier_cards/QM/gh-am-qm-03.png,8,QM,Quartermaster,Three Arrows,1,NA,TRUE,FALSE
@@ -216,7 +206,6 @@
 215,gh-am-qm-16.png,./modifier_cards/QM/gh-am-qm-16.png,8,QM,Quartermaster,Three Arrows,0,refreshitem,FALSE,FALSE
 216,gh-am-qm-17.png,./modifier_cards/QM/gh-am-qm-17.png,8,QM,Quartermaster,Three Arrows,1,NA,FALSE,FALSE
 217,gh-am-qm-18.png,./modifier_cards/QM/gh-am-qm-18.png,8,QM,Quartermaster,Three Arrows,1,NA,FALSE,FALSE
-218,gh-am-qm-back.png,./modifier_cards/QM/gh-am-qm-back.png,8,QM,Quartermaster,Three Arrows,NA,NA,NA,TRUE
 219,gh-am-sb-01.png,./modifier_cards/SB/gh-am-sb-01.png,15,SB,Sawbones,Saw,2,NA,FALSE,FALSE
 220,gh-am-sb-02.png,./modifier_cards/SB/gh-am-sb-02.png,15,SB,Sawbones,Saw,2,NA,FALSE,FALSE
 221,gh-am-sb-03.png,./modifier_cards/SB/gh-am-sb-03.png,15,SB,Sawbones,Saw,2,NA,TRUE,FALSE
@@ -231,7 +220,6 @@
 230,gh-am-sb-12.png,./modifier_cards/SB/gh-am-sb-12.png,15,SB,Sawbones,Saw,0,heal3self,TRUE,FALSE
 231,gh-am-sb-13.png,./modifier_cards/SB/gh-am-sb-13.png,15,SB,Sawbones,Saw,0,heal3self,TRUE,FALSE
 232,gh-am-sb-14.png,./modifier_cards/SB/gh-am-sb-14.png,15,SB,Sawbones,Saw,0,refreshitem,FALSE,FALSE
-233,gh-am-sb-back.png,./modifier_cards/SB/gh-am-sb-back.png,15,SB,Sawbones,Saw,NA,NA,NA,TRUE
 234,gh-am-sc-01.png,./modifier_cards/SC/gh-am-sc-01.png,4,SC,Scoundrel,Kunai,0,NA,FALSE,FALSE
 235,gh-am-sc-02.png,./modifier_cards/SC/gh-am-sc-02.png,4,SC,Scoundrel,Kunai,1,NA,FALSE,FALSE
 236,gh-am-sc-03.png,./modifier_cards/SC/gh-am-sc-03.png,4,SC,Scoundrel,Kunai,2,NA,FALSE,FALSE
@@ -249,7 +237,6 @@
 248,gh-am-sc-15.png,./modifier_cards/SC/gh-am-sc-15.png,4,SC,Scoundrel,Kunai,0,muddle,TRUE,FALSE
 249,gh-am-sc-16.png,./modifier_cards/SC/gh-am-sc-16.png,4,SC,Scoundrel,Kunai,0,muddle,TRUE,FALSE
 250,gh-am-sc-17.png,./modifier_cards/SC/gh-am-sc-17.png,4,SC,Scoundrel,Kunai,0,invisible,TRUE,FALSE
-251,gh-am-sc-back.png,./modifier_cards/SC/gh-am-sc-back.png,4,SC,Scoundrel,Kunai,NA,NA,NA,TRUE
 252,gh-am-sk-01.png,./modifier_cards/SK/gh-am-sk-01.png,7,SK,Sunkeeper,Sun,0,NA,FALSE,FALSE
 253,gh-am-sk-02.png,./modifier_cards/SK/gh-am-sk-02.png,7,SK,Sunkeeper,Sun,2,NA,FALSE,FALSE
 254,gh-am-sk-03.png,./modifier_cards/SK/gh-am-sk-03.png,7,SK,Sunkeeper,Sun,1,NA,TRUE,FALSE
@@ -269,7 +256,6 @@
 268,gh-am-sk-17.png,./modifier_cards/SK/gh-am-sk-17.png,7,SK,Sunkeeper,Sun,0,shield1self,TRUE,FALSE
 269,gh-am-sk-18.png,./modifier_cards/SK/gh-am-sk-18.png,7,SK,Sunkeeper,Sun,1,NA,FALSE,FALSE
 270,gh-am-sk-19.png,./modifier_cards/SK/gh-am-sk-19.png,7,SK,Sunkeeper,Sun,1,NA,FALSE,FALSE
-271,gh-am-sk-back.png,./modifier_cards/SK/gh-am-sk-back.png,7,SK,Sunkeeper,Sun,NA,NA,NA,TRUE
 272,gh-am-ss-01.png,./modifier_cards/SS/gh-am-ss-01.png,13,SS,Soothsinger,Music Note,4,NA,FALSE,FALSE
 273,gh-am-ss-02.png,./modifier_cards/SS/gh-am-ss-02.png,13,SS,Soothsinger,Music Note,4,NA,FALSE,FALSE
 274,gh-am-ss-03.png,./modifier_cards/SS/gh-am-ss-03.png,13,SS,Soothsinger,Music Note,1,immobilize,FALSE,FALSE
@@ -286,7 +272,6 @@
 285,gh-am-ss-14.png,./modifier_cards/SS/gh-am-ss-14.png,13,SS,Soothsinger,Music Note,0,curse,TRUE,FALSE
 286,gh-am-ss-15.png,./modifier_cards/SS/gh-am-ss-15.png,13,SS,Soothsinger,Music Note,0,curse,TRUE,FALSE
 287,gh-am-ss-16.png,./modifier_cards/SS/gh-am-ss-16.png,13,SS,Soothsinger,Music Note,0,curse,TRUE,FALSE
-288,gh-am-ss-back.png,./modifier_cards/SS/gh-am-ss-back.png,13,SS,Soothsinger,Music Note,NA,NA,NA,TRUE
 289,gh-am-su-01.png,./modifier_cards/SU/gh-am-su-01.png,9,SU,Summoner,Circles,0,NA,FALSE,FALSE
 290,gh-am-su-02.png,./modifier_cards/SU/gh-am-su-02.png,9,SU,Summoner,Circles,1,NA,FALSE,FALSE
 291,gh-am-su-03.png,./modifier_cards/SU/gh-am-su-03.png,9,SU,Summoner,Circles,1,NA,FALSE,FALSE
@@ -309,7 +294,6 @@
 308,gh-am-su-20.png,./modifier_cards/SU/gh-am-su-20.png,9,SU,Summoner,Circles,0,infusewind,TRUE,FALSE
 309,gh-am-su-21.png,./modifier_cards/SU/gh-am-su-21.png,9,SU,Summoner,Circles,0,infusemoon,TRUE,FALSE
 310,gh-am-su-22.png,./modifier_cards/SU/gh-am-su-22.png,9,SU,Summoner,Circles,0,infuseearth,TRUE,FALSE
-311,gh-am-su-back.png,./modifier_cards/SU/gh-am-su-back.png,9,SU,Summoner,Circles,NA,NA,NA,TRUE
 312,gh-am-sw-01.png,./modifier_cards/SW/gh-am-sw-01.png,3,SW,Spellweaver,Star,1,NA,FALSE,FALSE
 313,gh-am-sw-02.png,./modifier_cards/SW/gh-am-sw-02.png,3,SW,Spellweaver,Star,1,NA,FALSE,FALSE
 314,gh-am-sw-03.png,./modifier_cards/SW/gh-am-sw-03.png,3,SW,Spellweaver,Star,1,NA,FALSE,FALSE
@@ -328,7 +312,6 @@
 327,gh-am-sw-16.png,./modifier_cards/SW/gh-am-sw-16.png,3,SW,Spellweaver,Star,0,infusewind,TRUE,FALSE
 328,gh-am-sw-17.png,./modifier_cards/SW/gh-am-sw-17.png,3,SW,Spellweaver,Star,0,infusesun,TRUE,FALSE
 329,gh-am-sw-18.png,./modifier_cards/SW/gh-am-sw-18.png,3,SW,Spellweaver,Star,0,infusemoon,,FALSE
-330,gh-am-sw-back.png,./modifier_cards/SW/gh-am-sw-back.png,3,SW,Spellweaver,Star,NA,NA,NA,TRUE
 331,gh-am-ti-01.png,./modifier_cards/TI/gh-am-ti-01.png,2,TI,Tinkerer,Gear,0,NA,FALSE,FALSE
 332,gh-am-ti-02.png,./modifier_cards/TI/gh-am-ti-02.png,2,TI,Tinkerer,Gear,1,NA,FALSE,FALSE
 333,gh-am-ti-03.png,./modifier_cards/TI/gh-am-ti-03.png,2,TI,Tinkerer,Gear,1,NA,FALSE,FALSE
@@ -345,4 +328,3 @@
 344,gh-am-ti-14.png,./modifier_cards/TI/gh-am-ti-14.png,2,TI,Tinkerer,Gear,1,heal2self,FALSE,FALSE
 345,gh-am-ti-15.png,./modifier_cards/TI/gh-am-ti-15.png,2,TI,Tinkerer,Gear,1,heal2self,FALSE,FALSE
 346,gh-am-ti-16.png,./modifier_cards/TI/gh-am-ti-16.png,2,TI,Tinkerer,Gear,0,addtarget,FALSE,FALSE
-347,gh-am-ti-back.png,./modifier_cards/TI/gh-am-ti-back.png,2,TI,Tinkerer,Gear,NA,NA,NA,TRUE

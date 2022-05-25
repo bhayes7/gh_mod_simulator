@@ -19,7 +19,6 @@
 18,gh-am-p1-18.png,./modifier_cards/base/player/gh-am-p1-18.png,2,NA,FALSE,FALSE,1
 19,gh-am-p1-19.png,./modifier_cards/base/player/gh-am-p1-19.png,NA,miss,TRUE,FALSE,1
 20,gh-am-p1-20.png,./modifier_cards/base/player/gh-am-p1-20.png,NA,crit,TRUE,FALSE,1
-21,gh-am-p1-back.png,./modifier_cards/base/player/gh-am-p1-back.png,NA,NA,NA,TRUE,1
 22,gh-am-p2-01.png,./modifier_cards/base/player/gh-am-p2-01.png,0,NA,FALSE,FALSE,2
 23,gh-am-p2-02.png,./modifier_cards/base/player/gh-am-p2-02.png,0,NA,FALSE,FALSE,2
 24,gh-am-p2-03.png,./modifier_cards/base/player/gh-am-p2-03.png,0,NA,FALSE,FALSE,2
@@ -40,7 +39,6 @@
 39,gh-am-p2-18.png,./modifier_cards/base/player/gh-am-p2-18.png,2,NA,FALSE,FALSE,2
 40,gh-am-p2-19.png,./modifier_cards/base/player/gh-am-p2-19.png,NA,miss,TRUE,FALSE,2
 41,gh-am-p2-20.png,./modifier_cards/base/player/gh-am-p2-20.png,NA,crit,TRUE,FALSE,2
-42,gh-am-p2-back.png,./modifier_cards/base/player/gh-am-p2-back.png,NA,NA,NA,TRUE,2
 43,gh-am-p3-01.png,./modifier_cards/base/player/gh-am-p3-01.png,0,NA,FALSE,FALSE,3
 44,gh-am-p3-02.png,./modifier_cards/base/player/gh-am-p3-02.png,0,NA,FALSE,FALSE,3
 45,gh-am-p3-03.png,./modifier_cards/base/player/gh-am-p3-03.png,0,NA,FALSE,FALSE,3
@@ -61,7 +59,6 @@
 60,gh-am-p3-18.png,./modifier_cards/base/player/gh-am-p3-18.png,2,NA,FALSE,FALSE,3
 61,gh-am-p3-19.png,./modifier_cards/base/player/gh-am-p3-19.png,NA,miss,TRUE,FALSE,3
 62,gh-am-p3-20.png,./modifier_cards/base/player/gh-am-p3-20.png,NA,crit,TRUE,FALSE,3
-63,gh-am-p3-back.png,./modifier_cards/base/player/gh-am-p3-back.png,NA,NA,NA,TRUE,3
 64,gh-am-p4-01.png,./modifier_cards/base/player/gh-am-p4-01.png,0,NA,FALSE,FALSE,4
 65,gh-am-p4-02.png,./modifier_cards/base/player/gh-am-p4-02.png,0,NA,FALSE,FALSE,4
 66,gh-am-p4-03.png,./modifier_cards/base/player/gh-am-p4-03.png,0,NA,FALSE,FALSE,4
@@ -82,7 +79,6 @@
 81,gh-am-p4-18.png,./modifier_cards/base/player/gh-am-p4-18.png,2,NA,FALSE,FALSE,4
 82,gh-am-p4-19.png,./modifier_cards/base/player/gh-am-p4-19.png,NA,miss,TRUE,FALSE,4
 83,gh-am-p4-20.png,./modifier_cards/base/player/gh-am-p4-20.png,NA,crit,TRUE,FALSE,4
-84,gh-am-p4-back.png,./modifier_cards/base/player/gh-am-p4-back.png,NA,NA,NA,TRUE,4
 85,gh-am-pm-01.png,./modifier_cards/base/player-mod/gh-am-pm-01.png,NA,miss,FALSE,FALSE,NA
 86,gh-am-pm-02.png,./modifier_cards/base/player-mod/gh-am-pm-02.png,NA,miss,FALSE,FALSE,NA
 87,gh-am-pm-03.png,./modifier_cards/base/player-mod/gh-am-pm-03.png,NA,miss,FALSE,FALSE,NA
@@ -118,4 +114,3 @@
 117,gh-am-pm-33.png,./modifier_cards/base/player-mod/gh-am-pm-33.png,11,NA,FALSE,FALSE,NA
 118,gh-am-pm-34.png,./modifier_cards/base/player-mod/gh-am-pm-34.png,12,NA,FALSE,FALSE,NA
 119,gh-am-pm-35.png,./modifier_cards/base/player-mod/gh-am-pm-35.png,13,NA,FALSE,FALSE,NA
-120,gh-am-pm-back.png,./modifier_cards/base/player-mod/gh-am-pm-back.png,NA,NA,NA,TRUE,NA
