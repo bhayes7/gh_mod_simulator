@@ -1,6 +1,8 @@
 # the algorithm for drawing a modifier card is:
 # 
 # STEP 1: determining the modifier for an attack
+# if modifier deck is empty:
+#   immediately shuffle
 # if the attack has neither advantage nor disadvantage:
 #   draw the top card of the modifier deck
 #   do:
