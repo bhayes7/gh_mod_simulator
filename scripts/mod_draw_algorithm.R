@@ -48,3 +48,41 @@
 #   when shuffle option is selected:
 #     add all cards remaining in discard pile to the deck
 #     randomly re-determine the deck's order
+
+library(R6)
+
+# TODO: load in card reference information
+
+# the "deck" value that initializes a ModifierDeck object should
+# be a vector of filenames for the cards that are in the deck
+ModifierDeck <- R6Class("ModifierDeck", list(
+  deck = NULL,
+  discard = NULL,
+  
+  initialize = function(deck, discard = NULL) {
+    stopifnot(is.character(deck), length(deck) >= 2) # I take it as a rule that ANY modifier deck must contain natural crit and miss
+                                                     # while I don't check for those cards specifically, that means that decksize >= 2
+    self$deck <- deck
+    self$discard <- character() # discard initializes as an empty vector
+  },
+  
+  print = function(...) {
+    cat("ModifierDeck: \n")
+    if(length(self$deck) == 0){cat("  Cards in deck: deck is empty", "\n", sep = "")}
+    else{cat("  Cards in deck:", self$deck, sep = "\n    ")}
+    
+    if(length(self$discard) == 0){cat("  Cards in discard: discard is empty", "\n", sep = "")}
+    else{cat("  Cards in discard:", self$deck, sep = "\n    ")}
+    invisible(self)
+  }
+))
+
+# filenames for all of the cards in the standard modifier deck
+# for testing purposes only
+default_deck_cards <- c("gh-am-p1-01.png", "gh-am-p1-02.png", "gh-am-p1-03.png", "gh-am-p1-04.png",
+                        "gh-am-p1-05.png", "gh-am-p1-06.png", "gh-am-p1-07.png", "gh-am-p1-08.png",
+                        "gh-am-p1-09.png", "gh-am-p1-10.png", "gh-am-p1-11.png", "gh-am-p1-12.png",
+                        "gh-am-p1-13.png", "gh-am-p1-14.png", "gh-am-p1-15.png", "gh-am-p1-16.png",
+                        "gh-am-p1-17.png", "gh-am-p1-18.png", "gh-am-p1-19.png", "gh-am-p1-20.png")
+
+demo_deck <- ModifierDeck$new(default_deck_cards)
