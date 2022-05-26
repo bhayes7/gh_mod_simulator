@@ -52,13 +52,7 @@
 library(R6)
 library(dplyr)
 library(tidyr)
-
-cards <- read.csv("mod_data/pl_all_mod_cards.csv",
-                  row.names = 1,
-                  colClasses = c("character", "character", "numeric",
-                                 "character", "logical", "logical",
-                                 "logical", "numeric", "character",
-                                 "character", "character"))
+library(purrr)
 
 # the "deck" value that initializes a ModifierDeck object should
 # be a vector of filenames for the cards that are in the deck
@@ -93,6 +87,16 @@ ModifierDeck <- R6Class("ModifierDeck", list(
     invisible(self)
   },
   
+  # TODO implement function
+  add_blessing = function() {
+    invisible(self)
+  },
+  
+  # TODO implement function
+  add_curse = function() {
+    invisible(self)
+  },
+  
   print = function(...) {
     cat("ModifierDeck: \n")
     if(length(self$deck) == 0){cat("  Cards in deck: deck is empty", "\n", sep = "")}
@@ -104,9 +108,54 @@ ModifierDeck <- R6Class("ModifierDeck", list(
   }
 ))
 
+# TODO implement class: connect to data table, write functions for extracting
+# and interpreting draws, etc.
+# this class interprets the filenames of cards and extracts relevant information
+# from a provided card directory
+CardReader <- R6Class("CardReader", list(
+  data = NULL,
+  
+  initialize = function(data) {
+    # TODO implement data sanitation checks (make sure it's a dataframe,
+    # that is has the correct columns, etc.)
+    
+    self$data <- data
+  },
+  
+  # TODO implement single card function
+  # accepts filename string for the card as argument
+  print_card = function(card) {
+    card_data <- self$data[card,]
+    
+    # this gives a list containing just the data elements
+    # need to pair this with the list of colnames to print pretty
+    map(1:ncol(card_data), function(x){card_data[[x]]})
+  },
+  
+  # TODO implement robust multi-card variant,
+  # making the above function obsolete
+  print_cards = function(cards) {
+    
+  },
+  
+  print = function(...) {
+    cat("CardReader: \n")
+    cat("  This reader contains data for ", private$num_cards(), " cards.\n", sep = "")
+    invisible(self)
+  }
+),
+  private = list(
+    # internal method for determining total # of distinct cards available to the reader
+    num_cards = function() {
+      return(nrow(self$data))
+    }
+))
+
 ################
 # TESTING ZONE #
 ################
+
+# Tests for ModifierDeck
 
 # filenames for all of the cards in the standard modifier deck
 # for testing purposes only
@@ -117,6 +166,7 @@ default_deck_cards <- c("gh-am-p1-01.png", "gh-am-p1-02.png", "gh-am-p1-03.png",
                         "gh-am-p1-17.png", "gh-am-p1-18.png", "gh-am-p1-19.png", "gh-am-p1-20.png")
 
 demo_deck <- ModifierDeck$new(default_deck_cards)
+
 print(demo_deck)
 demo_deck$draw()
 print(demo_deck)
@@ -128,3 +178,16 @@ print(demo_deck)
 
 # this will also fail:
 # failure_demo_deck_2 <- ModifierDeck$new(1:20)
+
+# Tests for CardReader
+
+cards <- read.csv("mod_data/pl_all_mod_cards.csv",
+                  row.names = 1,
+                  colClasses = c("character", "character", "numeric",
+                                 "character", "logical", "logical",
+                                 "logical", "numeric", "character",
+                                 "character", "character"))
+
+OmniReader <- CardReader$new(cards)
+
+print(OmniReader)
