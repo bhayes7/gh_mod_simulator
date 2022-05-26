@@ -3,18 +3,26 @@ library(dplyr)
 library(tidyr)
 library(purrr)
 
+# TODO better class documentation
 # the "deck" value that initializes a ModifierDeck object should
 # be a vector of filenames for the cards that are in the deck
+# I've decided it's for the best if this class only keeps track of modifier cards
+# as filenames, interpretation will occur elsewhere
+# that way, whatever battle algorithms I come up with won't be dependent on
+# the specifics of the filestructure
 ModifierDeck <- R6Class("ModifierDeck", list(
+  # TODO should these be private fields???
   deck = NULL,
   discard = NULL,
   
   initialize = function(deck, discard = NULL) {
     stopifnot(is.character(deck), length(deck) >= 2) # I take it as a rule that ANY modifier deck must contain natural crit and miss
-    # while I don't check for those cards specifically, that means that decksize >= 2
+                                                     # while I don't check for those cards specifically, that means that decksize >= 2
+
     self$deck <- as.list(deck)
     self$discard <- list() # discard initializes as an empty list
     
+    # give the deck a starting shuffle so that the first draw will be randomized
     self$shuffle()
   },
   
@@ -37,12 +45,7 @@ ModifierDeck <- R6Class("ModifierDeck", list(
   },
   
   # TODO implement function
-  add_blessing = function() {
-    invisible(self)
-  },
-  
-  # TODO implement function
-  add_curse = function() {
+  add_to_deck = function(card) {
     invisible(self)
   },
   
@@ -56,10 +59,9 @@ ModifierDeck <- R6Class("ModifierDeck", list(
     invisible(self)
   }
 ), private = list(
-  reader = NULL,
   
   # putting this here to appease my OCD
   dummy = function() {
-    
+    return(NULL)
   }
 ))
