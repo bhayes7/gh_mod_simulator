@@ -20,3 +20,6 @@ penalties <- c("gh-am-pm-21.png", "gh-am-pm-22.png", "gh-am-pm-23.png",
 
 source("classes/ModifierReserve.R")
 
+BlessDeck <- ModifierReserve$new(blessings)
+
+print(BlessDeck)

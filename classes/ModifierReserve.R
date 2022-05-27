@@ -13,13 +13,29 @@ ModifierReserve <- R6Class("ModifierReserve", list(
     private$cards <- as.list(cards)
     private$dealt <- list()
   },
+  
+  # returns vector of cards that are still in the reserve
+  get_available_cards = function() {
+    return(unlist(private$cards))
+  },
+  
+  # returns vector of cards that have been dealt out already
+  get_unavailable_cards = function() {
+    return(unlist(private$dealt))
+  },
 
   # retrieve an available modifier card and distribute it to the requesting
   # modifier deck
   deal = function() {
-    # TODO implement
-    # return(card)
-    invisible(self)
+    if(length(self$get_available_cards()) == 0) {
+      # TODO throw an error or something here idk
+    }
+    else {
+      card <- private$cards[[1]]
+      private$cards[[1]] <- NULL
+      private$dealt <- c(private$dealt, card)
+      return(card)
+    }
   },
 
   # accept an expended modifier card
@@ -35,7 +51,7 @@ ModifierReserve <- R6Class("ModifierReserve", list(
     invisible(self)
   }
 ), private = list(
-  # these will maintain the lists of available temporary modifiers
+  # this represents available modifier cards
   cards = NULL,
   
   # this allows the reserve to track which cards have been dealt out to
