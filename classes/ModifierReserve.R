@@ -23,7 +23,7 @@ ModifierReserve <- R6Class("ModifierReserve", list(
   },
 
   # accept an expended modifier card
-  return = function(card) {
+  undeal = function(card) {
     # TODO implement
     invisible(self)
   },
