@@ -20,6 +20,12 @@ penalties <- c("gh-am-pm-21.png", "gh-am-pm-22.png", "gh-am-pm-23.png",
 
 source("classes/ModifierReserve.R")
 
+# god I'm so bad at writing unit tests
 BlessDeck <- ModifierReserve$new(blessings)
 
 print(BlessDeck)
+
+all(BlessDeck$get_available_cards() == blessings)
+BlessDeck$deal() == blessings[1]
+all(BlessDeck$get_available_cards() == blessings[-1])
+BlessDeck$get_unavailable_cards() == blessings[1]
